@@ -1,0 +1,40 @@
+
+/* CATEGORY AND BOX */
+
+.category{
+	background-color: white;
+	
+	
+	
+}
+.category .inputbox input{
+	width: 100%;
+	padding: 10px 2px;
+	font-size: 16px;
+	color:rgba(16,2,87,1.00);
+	margin-bottom: 19px;
+	border: none;
+	border-bottom: 1px solid rgba(29,28,28,1.00);
+	outline: none;
+	background: transparent;
+}
+.category .inputBox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: rgba(16,2,87,1.00);
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.category .inputBox input:focus ~ label,
+.category .inputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}

@@ -1,0 +1,82 @@
+body{
+	
+	background-image: url("../img/black-and-white-black-and-white-blur-34088.jpg");
+	background-repeat: no-repeat;
+}
+
+/* Form Settings */
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	margin: 3px;
+	
+}
+.logo{
+	margin: 0 0 30px;
+	padding: 0;
+	position: relative;
+	left: 60px;
+	
+	
+}
+
+
+.box .inputBox{
+	position: relative;
+	
+}
+
+.box .inputBox input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color:rgba(16,2,87,1.00);
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid rgba(29,28,28,1.00);
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: rgba(16,2,87,1.00);
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}
+
+.for{
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.reg{
+	font-weight: 500;
+	color: black;
+	text-align: left;
+}
+
